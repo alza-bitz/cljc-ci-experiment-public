@@ -40,4 +40,3 @@ cache:
   - "$HOME/.gitlibs"
   - node_modules
   - ".cpcache"
-  - cljs-test-runner-out
