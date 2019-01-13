@@ -8,9 +8,10 @@ jobs:
     - stage: test
       name: "Clojure Tests"
       script: clojure -Adev:test
-    - name: "Clojurescript Tests"
+    - name: "ClojureScript Tests"
       script: clojure -Adev:test-cljs
     - stage: deploy
+      if: tag IS present
       name: "GitHub Release"
       script: 
         - clojure -Sverbose -A:dev:compile-cljs
