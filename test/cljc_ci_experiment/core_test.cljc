@@ -1,4 +1,4 @@
-(ns cljs-travis-experiment.core-test
+(ns cljc-ci-experiment.core-test
   (:require
    [clojure.test :refer [deftest testing is]]))
 

@@ -1,6 +1,5 @@
 {
-  "name": "cljs-travis-experiment",
-  "version": "0.1.0",
+  "name": "cljc-ci-experiment-public",
   "description": "",
   "bin": "out/core.js",
   "scripts": {
@@ -16,7 +15,6 @@
     "scripts": "out/**/*.js"
   },
   "dependencies": {
-    "xmldom": "^0.1.27",
     "source-map-support": "^0.5.9"
   }
 }

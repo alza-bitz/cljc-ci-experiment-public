@@ -1,4 +1,4 @@
-(ns cljs-travis-experiment.core
+(ns cljc-ci-experiment.core
   #?(:clj (:gen-class)))
 
 (defn -main [& args]
